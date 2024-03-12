@@ -6,3 +6,5 @@ FROM middle_earth_character m
          INNER JOIN races r on m.race_id = r.id
          INNER JOIN categories c on m.category_id = c.id
 ORDER BY m.id;
+
+SELECT id, name, gender, race, category FROM view_1;
